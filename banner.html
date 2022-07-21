@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de banners</title>
+    <link rel="stylesheet" href="banner.css">
+</head>
+<body>
+   
+       <div class="calculador">
+
+        <h1 class="titulo">CALCULADORA de<br> BANNERS</h1>
+        <br>
+            <span>Precio Banner M2: </span><input type="number" name="precioBanner" id="precioBanner">
+            <span>Ancho:</span><input type="number" name="uno" id="uno">
+            <span>Largo:</span><input type="number" name="dos" id="dos">
+
+            <select class="varillas" name="varillas" id="varillas">
+                <option value="0">Sin varillas</option>
+                
+            </select>
+
+            <button onclick="calculo()">Calcular</button>
+            <br>
+            <span class="precio_final" style="font-weight: bold;">Precio:</span><span class="precio_final price" id="precio"></span>
+            <span class="precio_final" style="font-weight: bold;">Precio Sugerido 600$ gan:</span><span class="precio_final price" id="preciosug"></span>
+            
+            <br><br>
+            <h4>Te amo ♡</h4>
+        </div>
+
+        <script src="banner.js"></script>
+</body>
+</html>
