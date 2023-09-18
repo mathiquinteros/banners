@@ -10,7 +10,7 @@ function calculo(){
     let resultado = ((uno*dos)*precioBanner)+(varillas*2);
    
 
-    let preciosug = resultado+600;
+    let preciosug = resultado+1800;
     
    
     document.getElementById("precio").innerHTML = resultado+" $ con varillas de: "+varillas+"$";
